@@ -1,0 +1,10 @@
+config.neighbourhood_scope: 
+config.physics_mode: true
+config.show_inter_neighbour_edges: true
+created: 20160630180043162
+id: 42cb3bee-e4e9-4396-bf36-e0e926cdac54
+isview: true
+modified: 20160630173905459
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/DataFlow
+type: text/vnd.tiddlywiki
+

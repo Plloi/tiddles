@@ -1,0 +1,8 @@
+created: 20160630172024079
+modified: 20160630172156378
+priority: 1
+scope: [tag[DataSource]]
+style: {"size":86,"color":{"background":"rgba(250,252,247,1)"},"shapeProperties":{"borderDashes":false},"shape":"database","shadow":true}
+title: $:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/DataSource
+type: text/vnd.tiddlywiki
+

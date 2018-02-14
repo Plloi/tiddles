@@ -1,0 +1,8 @@
+created: 20160630172211214
+modified: 20160630172347469
+priority: 1
+scope: [tag[Process]]
+style: {"color":{"background":"rgba(252,249,156,1)"},"shadow":true,"shape":"ellipse"}
+title: $:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/Process
+type: text/vnd.tiddlywiki
+

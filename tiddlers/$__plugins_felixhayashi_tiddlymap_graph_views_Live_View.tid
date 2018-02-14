@@ -1,0 +1,12 @@
+config.neighbourhood_directions: out
+config.neighbourhood_scope: 100
+config.physics_mode: true
+config.refresh-triggers: $:/temp/tmap/currentTiddler
+config.show_inter_neighbour_edges: true
+config.vis: {"physics":{"forceAtlas2Based":{"springConstant":0.09}}}
+created: 20150331114808577
+isview: true
+modified: 20160315200956570
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Live View
+type: text/vnd.tiddlywiki
+

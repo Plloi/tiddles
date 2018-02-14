@@ -1,0 +1,6 @@
+created: 20141227233736746
+filter: [!is[system]] +[limit[100]]
+modified: 20160122221636844
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/All Tiddlers/filter/nodes
+type: text/vnd.tiddlywiki
+

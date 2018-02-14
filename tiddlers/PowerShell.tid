@@ -1,0 +1,40 @@
+created: 20151222141320120
+modified: 20180214223129254
+tags: Scripting Powershell
+title: PowerShell
+tmap.id: 9cdd3c03-5fcd-49d8-a523-baf32025abd4
+type: text/vnd.tiddlywiki
+
+!Tips
+*Parameters
+You can also assign default values to your params, read them from console if not available or stop script execution
+
+```
+param (
+	[string]$server = "http://defaultserver", //default value
+	[string]$username = $(throw "-username is required."), //Required value
+	[string]$password = $( Read-Host "Input password, please" ) //User input
+	[System.Security.SecureString]$password = $( Read-Host "Input Password: " -AsSecureString ) //Hidden user input -- needs to be decoded
+)
+```
+
+*Anon function that returns Password from SecureString, there may be better ways to do this
+
+```
+$([Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($password)))
+```
+
+!Useful Commands:
+;Get-Member
+:List Object properties
+;Select-String
+: will allow you to search files, piped input, objects, etc for a pattern (which is, by default, a regular expression).
+: ex: select-string .\*.* -pattern "evildoer"
+: is case-insensitive by default
+
+
+!Useful Functions
+{{{ [tag[Powershell]tag[Functions]]||LinkedEmbed}}}
+
+
+{{Powershell - Override "Command not found"||LinkedEmbed}}

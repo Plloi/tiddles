@@ -1,0 +1,10 @@
+created: 20180214201705430
+modified: 20180214223320716
+tags: Template
+title: LinkedEmbed
+tmap.id: 350b99d0-6ba0-4f2d-96a1-2a05d783130f
+type: text/vnd.tiddlywiki
+
+;{{!!title}}
+
+{{!!text}}

@@ -1,0 +1,5 @@
+created: 20160630180043156
+filter: [tag[DataSource]] [tag[Process]] [tag[SSAS Cube]] [tag[Data Mart]] [tag[ServiceBus]]
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/DataFlow/filter/nodes
+type: text/vnd.tiddlywiki
+

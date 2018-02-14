@@ -1,0 +1,7 @@
+created: 20160630154136697
+modified: 20160630154345471
+show-label: false
+style: {"color":{"color":"rgba(32,132,13,1)","highlight":"rgba(32,132,13,1)","hover":"rgba(32,132,13,1)"},"arrows":{"middle":{"enabled":false}}}
+title: $:/plugins/felixhayashi/tiddlymap/graph/edgeTypes/DataFlow:Deterministic
+type: text/vnd.tiddlywiki
+

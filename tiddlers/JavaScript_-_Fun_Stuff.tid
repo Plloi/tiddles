@@ -1,0 +1,15 @@
+created: 20151222184644420
+modified: 20180214190534224
+title: JavaScript - Fun Stuff
+tmap.id: acd819be-f342-4d1d-95f6-ee6a40f3b258
+type: text/vnd.tiddlywiki
+
+*String Generation
+```
+for(r='',i=2001;--i;r+=String.fromCharCode((i%26^15?97:65)+(i<<2^i+1)%26))r;
+```
+*Madness
+```
+(function I0m3a3programming3paradox313no3I0m3not2(){}).name.replace(/\d/g,(m)=>"'—. "[m])
+`${y=>I0m3a3programming3paradox313no3I0m3not2}`.slice(3,-1).replace(/\d/g,(m)=>"'—. "[m])
+```

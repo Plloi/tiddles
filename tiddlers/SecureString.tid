@@ -1,0 +1,10 @@
+created: 20180214191323216
+modified: 20180214191743755
+title: SecureString
+tmap.id: 7a15b4ec-175c-40cc-bcdd-a579b0570b45
+
+! Remarks
+
+SecureString is a string type that provides a measure of security. It tries to avoid storing potentially sensitive strings in process memory as plain text. ([[For limitations, however, see the How secure is SecureString? section.|https://msdn.microsoft.com/en-us/library/system.security.securestring(v=vs.110).aspx#HowSecure.]])
+
+The maximum length of a SecureString instance is 65,536 characters.

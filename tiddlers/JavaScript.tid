@@ -1,0 +1,28 @@
+created: 20151222135308482
+modified: 20180214190754824
+title: JavaScript
+tmap.id: bf6918a6-020d-4076-a151-16171669d502
+type: text/vnd.tiddlywiki
+
+!Tips
+;Tilde (~)
+:~N == -(floor(N)+1)
+;Tilde Tilde (~ ~)
+:~ ~N == floor(N);
+!Links
+*http://140byt.es/ (Defunct :( )
+**Useful snippets that fit in a tweet
+!Spikes
+!!eDocs Stuff
+```
+http.get("http://webapps.mpiresearch.com/eDocsWebService/eDocsSummary.asmx/eDocs%20Summary%20XML?strUserID=sha10888", function(res) {
+	console.log("Got response: " + res.statusCode);
+	res.on('data', function (chunk) {
+		console.log('BODY: ' + chunk);
+	});
+}).on('error', function(e) {
+	console.log("Got error: " + e.message);
+
+});
+```
+![[Fun Stuff|JavaScript - Fun Stuff]]

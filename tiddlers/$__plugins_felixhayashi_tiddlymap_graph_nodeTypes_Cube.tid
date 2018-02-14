@@ -1,0 +1,8 @@
+created: 20160630173040859
+modified: 20160630180100163
+priority: 1
+scope: [tag[SSAS Cube]]
+style: {"shape":"database","color":{"background":"rgba(99,178,16,1)"},"shadow":true}
+title: $:/plugins/felixhayashi/tiddlymap/graph/nodeTypes/Cube
+type: text/vnd.tiddlywiki
+
